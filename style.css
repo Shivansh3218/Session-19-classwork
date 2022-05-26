@@ -114,12 +114,16 @@ h4{
     text-align: center;
 }
 /*=============Footer Project tag starts==========*/
-
+footer{
+    background-color: rgb(230, 231, 163);
+}
 h5{
-    foncolor: rgb(43, 122, 27);
+    font-color: rgb(43, 122, 27);
     font-weight: bolder;
     font-size: 30px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
-a{
-    cursor: pointer;
+.div3{
+    padding-left: 50px;
 }
