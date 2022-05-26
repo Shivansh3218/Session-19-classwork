@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(255, 253, 145);   
+}
+header{                                                             /*=============Header tag starts==========*/
+background-color: rgb(255, 253, 145);
+display: flex;
+justify-content: space-between;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 20px;
+}
+
+a{
+text-decoration: none;
+color: rgb(97, 9, 9);
+font-weight: bolder;
+font-size: larger;
+}
+
+nav{
+word-spacing: 28px;
+}
+#contact{
+background-color: rgb(166, 255, 0);
+width: 150px;
+border-radius: 30px;
+border: none;
+
+}
+#contact:hover{
+pointer-events: all;
+background-color: aqua;
+
+}
+#creative{
+font-style: italic;
+font-size: 30px;
+border: none;
+
+background-color: rgb(255, 253, 145);
+}   /*=============Body starts header ends tag starts==========*/
+
+
+
+.section1{
+display: flex;
+margin-top: 100px;
+justify-content: space-around;
+
+}
+h1{
+color: rgb(43, 122, 27);
+font-weight: bolder;
+font-size: 30px;
+}
+h2{
+color: rgb(57, 126, 0);
+}
+#my{
+width: 500px;
+height: 500px;
+border-radius: 10px;
+}
+.article{
+width: 500px;
+height: 500px;
+}
+#cv{
+padding: 20px;
+border-radius: 20px;
+font-weight: 1000;
+background-color: rgb(79, 58, 97);
+color: aliceblue;
+font-size: 15px;
+font-style: italic;
+}
+/*=============Section 2 about me tag starts==========*/
+
+
+.my2{
+width: 500px;
+height: 500px;
+border-radius: 10px;
+}
+.section2{
+display: flex;
+margin-top: 100px;
+justify-content: space-around;
+
+}
+
+.article2{
+width: 80%;
+height: 500px;
+
+}
+
+/*=============Section 3 Project tag starts==========*/
+.figure3{
+    background-color: rgb(255, 254, 180);
+    width: 50%;
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    justify-content: center;
+}
+.sample{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+h4{
+    text-align: center;
+}
+/*=============Footer Project tag starts==========*/
+
+h5{
+    foncolor: rgb(43, 122, 27);
+    font-weight: bolder;
+    font-size: 30px;
+}
+a{
+    cursor: pointer;
+}
